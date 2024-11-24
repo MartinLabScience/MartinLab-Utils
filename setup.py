@@ -8,8 +8,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/MartinLabScience/MartinLab-Utils',  # Repository URL
-    author='Your Name',
-    author_email='your_email@example.com',
+    author='Andreas Martin',
     license='GPLv3',  # GNU General Public License v3.0
     packages=find_packages(include=["martinlab", "martinlab.*"]),
     classifiers=[
