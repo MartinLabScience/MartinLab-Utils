@@ -7,7 +7,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-class CamundaClient:
+class Client:
     def __init__(self, url, workerid=None):
         self.url = url
         self.workerid = str(workerid) if workerid else str(uuid.uuid1())
